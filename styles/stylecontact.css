@@ -1,0 +1,79 @@
+/* stylecontact.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo del cuerpo */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h4 {
+    text-align: center;
+    color: #333; /* Color del texto de encabezado */
+}
+
+p {
+    color: #666; /* Color del texto normal */
+    line-height: 1.6;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff; /* Color del enlace */
+    margin-top: 20px;
+    transition: color 0.3s; /* Transición de color suave */
+}
+
+a:hover {
+    color: #0056b3; /* Color del enlace al pasar el mouse */
+}
+
+.input-container {
+    margin-top: 30px;
+}
+
+.styled-input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Color del texto de etiqueta */
+}
+
+.styled-input input,
+.styled-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde de entrada */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.styled-input textarea {
+    height: 120px;
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+
+.submit-btn {
+    background-color: #007bff; /* Color de fondo del botón de envío */
+    color: #fff; /* Color del texto del botón de envío */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transición de color de fondo suave */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
